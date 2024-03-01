@@ -22,10 +22,10 @@ int main( int argc, char** argv )
    preOrder(b.root);
 
    // traverse the tree inOrder
-   printf("\ninOrder traversal\n" );
+   printf("\ninOrder\n" );
    inOrder( b.root );
    // traverse the tree postOrder
-   printf("\npostnOrder traversal\n" );   
+   printf("\npostOrder\n" );   
    postOrder(b.root);
 
    printf("\nprintTree traversal\n");
